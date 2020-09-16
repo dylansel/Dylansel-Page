@@ -1,0 +1,10 @@
+.imgreparacion  {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -100px;
+    left: 500px;
+}
+body {
+    background-color: rgb(142, 100, 177);
+}
