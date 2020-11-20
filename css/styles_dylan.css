@@ -14,6 +14,10 @@
     background-color: blueviolet !important;
     
 }
+
+.margin{
+    margin-top:-50px !important;
+}
 .navbar-nav a:hover{/*cambio el color de las letras del menu*/
     color:  #79fde1 !important;
 }
@@ -63,4 +67,10 @@
 .pag_class_box a:hover {
     text-decoration: none !important;
     
+}
+.box_footer {
+    display: flex;
+}
+.text_email a{
+    color:#02e4b3 ;
 }
