@@ -15,18 +15,22 @@
     
 }
 .navbar-nav a:hover{/*cambio el color de las letras del menu*/
-    color: rgb(23, 250, 239) !important;
+    color:  #79fde1 !important;
 }
 
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: rgb(91, 0, 133);
-    background: #02e9b7;
+    color: #2c3e50;
+    background: #02e4b3;
   }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: rgb(91, 0, 133);
-    background: #02e9b7;
+    color: #2c3e50;
+    background: #02e4b3;
+}
+.color_menu {
+    background-color: #02e4b3 !important;
+    color:#2c3e50 !important;
 }
 
 .pag_class_box img{
@@ -42,7 +46,7 @@
 .pag_class_box img:hover  {
     
     
-    border: rgb(255, 0, 0) solid 5px;
+    border: rgb(184, 30, 255) solid 5px;
     border-radius: 15px;
     text-decoration: none;
     

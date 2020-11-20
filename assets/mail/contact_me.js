@@ -39,7 +39,7 @@ $(function () {
                         )
                         .append("</button>");
                     $("#success > .alert-success").append(
-                        "<strong>Your message has been sent. </strong>"
+                        "<strong>se a enviado correctamente. </strong>"
                     );
                     $("#success > .alert-success").append("</div>");
                     //clear all fields
@@ -55,9 +55,9 @@ $(function () {
                         .append("</button>");
                     $("#success > .alert-danger").append(
                         $("<strong>").text(
-                            "Sorry " +
+                            "Disculpa " +
                                 firstName +
-                                ", it seems that my mail server is not responding. Please try again later!"
+                                ", en estos momentos no podemos recibir tu mensaje. Intentelo mas tarde"
                         )
                     );
                     $("#success > .alert-danger").append("</div>");
@@ -66,7 +66,7 @@ $(function () {
                 },
                 complete: function () {
                     setTimeout(function () {
-                        $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
+                        $this.prop("enable", false); // Re-enable submit button when AJAX call is complete
                     }, 1000);
                 },
             });
