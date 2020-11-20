@@ -1,0 +1,62 @@
+.logo_nav img {
+    width: 40px;
+    margin-right: 10px;
+
+}
+
+
+
+.logo_divider img {
+    width: 40px;
+}
+
+.color_primary  { /*cambio el color de el fondo principal*/
+    background-color: blueviolet !important;
+    
+}
+.navbar-nav a:hover{/*cambio el color de las letras del menu*/
+    color: rgb(23, 250, 239) !important;
+}
+
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: rgb(91, 0, 133);
+    background: #02e9b7;
+  }
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: rgb(91, 0, 133);
+    background: #02e9b7;
+}
+
+.pag_class_box img{
+    
+    width: 310px !important;
+    height: 250px !important;
+    
+    border: black solid 6px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.pag_class_box img:hover  {
+    
+    
+    border: rgb(255, 0, 0) solid 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+    
+}
+
+.pag_class_box h4 {
+
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+.pag_class_box a:hover {
+    text-decoration: none !important;
+    
+}

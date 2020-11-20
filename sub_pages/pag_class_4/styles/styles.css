@@ -1,0 +1,126 @@
+body { 
+    
+    background: linear-gradient(rgb(163, 163, 163), rgb(48, 48, 48));
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-attachment:fixed;
+    
+    
+    Background-size: 100%;
+    
+    
+}
+h1 {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(50deg,rgb(103, 255, 103),rgb(125, 255, 244));
+    font-family: 'Bangers', cursive;;
+    font-weight: normal;
+    margin: 5px 10%;
+    text-align:center ;
+}
+.sp1 {
+    font-weight:bold;
+    font-size: 35px;
+    color: rgb(80, 0, 117);
+}
+h2 {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(50deg,rgb(103, 255, 103),rgb(125, 255, 244));
+    font-family: 'Bangers', cursive;;
+    font-weight: normal;
+    margin: 5px 20%;
+    text-align:center ;
+}
+.sp2{
+    font-weight:bold;
+    font-size: 25px;
+    color: rgb(165, 0, 49);
+}
+
+.parafo1{
+    background-color: rgb(255, 147, 58);
+    width: 61%;
+    margin: 10px 5%;
+    padding: 15px;
+    font-family: 'Indie Flower', cursive;
+    box-sizing: border-box;
+    
+}
+.parafo2{
+    background-color: rgb(231, 97, 35);
+    width: 61%;
+    margin: 0px 5%;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+.img1 img {
+    position: absolute;
+    margin: 10px;
+    left: 70%;
+    top: 90px;
+}
+#footerr {
+    
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1075px){
+   
+    .img1 {
+        text-align: center;
+    }
+   
+    .img1 img  {
+        position: relative;
+        box-sizing: border-box;
+        left: 0%;
+        top: 0px;
+        margin:0px ;
+        
+        
+    }
+    .parafo1{
+        background-color: rgb(255, 147, 58);
+        width: 88%;
+        max-width: 1290px;
+        margin: 5px 5%;
+        padding: 15px;
+        font-family: 'Indie Flower', cursive;
+        box-sizing: border-box;
+
+        
+    }
+    .parafo2{
+        background-color: rgb(231, 97, 35);
+        width: 88%;
+        max-width: 1290px;
+        margin: 10px 5%;
+        padding: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        box-sizing: border-box;
+        
+    }
+
+
+}

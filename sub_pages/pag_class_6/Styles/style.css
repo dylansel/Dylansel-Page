@@ -1,0 +1,149 @@
+
+
+body {
+    margin: 0; 
+    background: linear-gradient(180deg , rgb(95, 95, 95),rgb(29, 29, 29));
+    size: 100%;
+    
+}
+.header1 {
+     border: outset 8px red; /*creo un borde al header, outset = borde 3d*/
+     background-color: rgb(148, 5, 5);
+     padding: 1px 10px; 
+     margin: 40px;
+     color: rgb(255, 255, 255);
+     display: flex; /*Establesco que la caja es Flex(los objetos se posicionan uno al lado del otro)*/
+     text-transform: uppercase; /*Transforma el texto en Mayuscula*/
+     align-items: center; /*centro los objetos en posicion height*/
+     margin-bottom: 0; 
+      
+      
+      
+}
+.header1 h1{
+    font-size: 35px;
+    font-family: cursive;
+    
+    
+}
+.header1 img{
+    margin: 5px 2px;
+    width:70px;
+    
+}
+
+.mainn {
+    margin: 20px auto;
+    
+    width: 90%;
+    display: flex;
+}
+.nav {
+    flex:0.1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px ;
+    width: 150px;
+    height: 220px;
+    
+}
+
+.nav a {
+    background-color:rgb(153, 1, 1);
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    border: ridge rgb(204, 98, 253) 8px;
+    text-decoration: none;
+    
+} 
+
+.nav a:hover {
+    background-color:rgb(216, 0, 0);
+    border: ridge rgb(208, 106, 255) 8px;
+}
+.nav a:active {
+    background-color:rgb(124, 0, 0);
+    border: ridge rgb(179, 16, 255) 8px;
+}
+.articulo1 {
+
+    margin: 20px;
+    margin-bottom: 65px;
+    flex: 1;
+    background-color:  rgba(34, 34, 34, 0.438);
+    border: ridge 10px blueviolet; /*ridge es un borde doble, el segundo medio oscuro*/
+    color: white;
+
+    width: 54%;
+    text-align: justify;
+    padding: 50px;
+    box-sizing: border-box;  /*establece que si se define un elemento con un ancho de 100 pixeles. Esos 100 pixeles incluíran cualquier borde o relleno que se añadan*/
+    min-height: 280px;
+    padding-top: 5px;
+    
+    
+}
+
+.articulo1 h1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+.articulo1 img {
+    position: relative;
+    
+    width: 200px;
+    float: right; /*Posiciona el objeto de manera flotante en este caso a la derecha del objeto de abajo*/
+    margin: 5px;
+    
+    
+}
+
+.aside1 {
+    flex: 1;
+    margin: 20px;
+    margin-bottom: 65px;
+    background-color: rgba(34, 34, 34, 0.438);
+    border: ridge 10px rgb(185, 1, 1);
+    color: white;
+    width: 31%;
+    text-align: justify;
+    padding: 30px;
+    box-sizing: border-box;
+    min-height: 300px;
+    
+
+}
+.aside1 img {
+    width: 100%;
+    
+    margin: 0px;
+    
+}
+.aside1 h1 {
+    font-size: 35px;
+    text-align: center; /*Centra el texto o cualuqer objeto dentro del contenedor*/
+    font-family: 'Architects Daughter', cursive;
+}
+footer{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    color:white;
+    background: rgba(20, 20, 20, 0.699);
+    position: fixed;
+    
+    
+
+}
+
+.contenedorprin {
+    margin: auto;
+    size: 100%;
+    max-width: 1350px; /*Esto evita que la paguina se distoricone en caso de una pantalla muy grande*/
+}

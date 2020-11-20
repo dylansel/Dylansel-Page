@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background: linear-gradient(180deg , rgb(9, 0, 59), rgb(0, 2, 10));
+    background-attachment: fixed;
+    
+
+}
+#header {
+    background-color: black;
+    margin: 15px auto;
+    width: 80%;
+    padding: 15px;
+    border: blue outset 10px;
+    color: white;
+    
+   
+    
+    
+    box-sizing: border-box; /*hace respetar el width establecido*/
+}
+
+#header h1 {
+    display: inline;
+    padding: 5px;
+    border-left:white solid 3px ;
+    font-family: 'Pacifico', cursive;
+    
+}
+.nav {
+    float: right;
+    
+}
+.nav ul{
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    top: 9px;
+    
+    text-align: center;
+}
+.nav li {
+    list-style: none;
+    
+}
+.nav a  {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex: 1;
+    background-color: rgb(134, 134, 134);
+    
+}
+.nav a:hover {
+    background-color: rgb(230, 230, 230);
+    transition: 0.8s;
+    
+
+    
+ 
+}
+#header .nav a:active {
+    background-color: rgb(180, 180, 180);
+    transition: none;
+    
+    
+}
+.main{
+    width: 80%;
+    box-sizing: border-box;
+    margin:  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.articles {
+width: 60%;
+
+}
+.article1 , .article2 {
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgba(153, 0, 255, 0.918);
+    margin: 20px;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: inherit;
+    color: white;
+    
+    
+}
+.aside {
+   
+    background-color: rgb(112, 253, 223);
+    margin:  20px ;
+    width: 30%;
+    height: 520px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+
+footer {
+    padding:0px  30px;
+    color: white;
+    
+  
+    text-align: center;
+   
+
+}
