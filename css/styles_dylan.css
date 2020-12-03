@@ -78,8 +78,9 @@
 .contac_color{
     background-color: #f6f6f6 !important;
 }
-.contac_size iframe{
-    height: 700px;
+.contac_size {
+    height: auto;
+    min-height: 700px;
     overflow-y: hidden;
 
 }
