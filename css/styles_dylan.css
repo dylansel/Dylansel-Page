@@ -73,4 +73,14 @@
 }
 .text_email a{
     color:#02e4b3 ;
+    
 }
+.contac_color{
+    background-color: #f6f6f6 !important;
+}
+.contac_size iframe{
+    height: 700px;
+    overflow-y: hidden;
+
+}
+
