@@ -81,7 +81,14 @@
 .contac_size {
     height: auto;
     min-height: 700px;
-    overflow-y: hidden;
+    margin: 0px;
+    padding: 0px;
+    
 
 }
+.contact_margin {
+    padding-top: 80px;
+    
+}
+
 
