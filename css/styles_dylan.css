@@ -75,6 +75,8 @@
     color:#02e4b3 ;
     
 }
+
+
 .contac_color{
     background-color: #f6f6f6 !important;
 }
@@ -91,4 +93,14 @@
     
 }
 
+
+
+
+@media screen and (max-width: 995px){ /*LE digo que cuando la pantalla sea mas chica que 995px pase lo de abajo*/
+    
+.foter_size_dy{
+padding-top: 50px;
+}
+
+}
 
