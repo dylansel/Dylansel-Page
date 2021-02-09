@@ -1,109 +1,170 @@
 .logo_nav img {
     width: 40px;
     margin-right: 10px;
-
 }
 
-
+#span_navar_name {
+    position: relative;
+    top: 3px;
+}
 
 .logo_divider img {
     width: 40px;
 }
 
-.color_primary  { /*cambio el color de el fondo principal*/
+.color_primary {
+    /*cambio el color de el fondo principal*/
     background-color: blueviolet !important;
-    
 }
 
-.margin{
-    margin-top:-50px !important;
-}
-.navbar-nav a:hover{/*cambio el color de las letras del menu*/
-    color:  #79fde1 !important;
+.color_boton_menu_responsiv {
+    background-color: #79fde1 !important;
+    color: #2f3438 !important;
 }
 
+.color_boton_menu_responsiv:hover {
+    box-shadow: 0 0 10px rgba(220, 205, 255, 0.575);
+}
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+.margenes-masthead {
+    margin-top: -60px !important;
+}
+
+.navbar-nav a:hover {
+    /*cambio el color de las letras del menu*/
+    color: #79fde1 !important;
+}
+
+.nav-item a {
+    padding-left: 1rem !important;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #2c3e50;
     background: #02e4b3;
-  }
+}
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #2c3e50;
     background: #02e4b3;
 }
+
 .color_menu {
     background-color: #02e4b3 !important;
-    color:#2c3e50 !important;
+    color: #2c3e50 !important;
 }
 
-.pag_class_box img{
-    
+.pag_class_box img {
     width: 310px !important;
     height: 250px !important;
-    
     border: black solid 6px;
     border-radius: 15px;
     text-decoration: none;
 }
 
-.pag_class_box img:hover  {
-    
-    
+.pag_class_box img:hover {
     border: rgb(184, 30, 255) solid 5px;
     border-radius: 15px;
     text-decoration: none;
-    
-    
 }
 
 .pag_class_box h4 {
-
     text-align: center;
     text-transform: uppercase;
     color: black;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
+
 .pag_class_box a:hover {
     text-decoration: none !important;
-    
 }
+
 .box_footer {
     display: flex;
 }
-.text_email a{
-    color:#02e4b3 ;
-    
+
+.text_email a {
+    color: #02e4b3;
 }
 
-
-.contac_color{
+.contac_color {
     background-color: #f6f6f6 !important;
 }
+
 .contac_size {
     height: auto;
     min-height: 700px;
     margin: 0px;
     padding: 0px;
-    
-
 }
+
 .contact_margin {
     padding-top: 80px;
-    
 }
+
 .color_text_aboutsection {
     color: rgb(75, 255, 231);
 }
 
-
-
-
-@media screen and (max-width: 995px){ /*LE digo que cuando la pantalla sea mas chica que 995px pase lo de abajo*/
-    
-.foter_size_dy{
-padding-top: 50px;
+.img-certificado {
+    width: 90%;
+    margin: 10px;
 }
 
+.img-certificado:hover {
+    box-shadow: 0 0 10px blueviolet;
 }
 
+.caja-certificados {
+    height: 920px !important;
+}
+
+.carusel_setings_dylan {
+    border-radius: 50px;
+}
+
+.carusel-icono-left {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.carusel-icono-right {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.carusel-icono-left:hover,
+.carusel-icono-right:hover {
+    background-color: rgba(138, 19, 250, 0.308) !important;
+}
+
+.carusel-icono-left:active,
+.carusel-icono-right:active {
+    background-color: rgba(55, 11, 97, 0.308) !important;
+}
+
+@media screen and (min-width: 1200px) {
+    .caja-certificados {
+        height: 1200px !important;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    /*LE digo que cuando la pantalla sea mas chica que 995px pase lo de abajo*/
+    .foter_size_dy {
+        padding-top: 50px;
+    }
+}
+
+
+/*textos rapidos*/
+
+.text-negrita {
+    font-weight: bold;
+}
+
+.text-size-20 {
+    font-size: 1.2rem;
+}
