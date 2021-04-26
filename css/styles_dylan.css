@@ -197,3 +197,25 @@
         transition: 1s;
     }
 }
+
+
+/*Estilos del Scroll*/
+
+body::-webkit-scrollbar {
+    padding-right: 5px;
+    width: 15px;
+    background-color: blueviolet;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.678);
+    position: relative;
+    top: 10px;
+    border: 3px solid blueviolet;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: rgba(24, 24, 24, 0.705);
+    border-radius: 10px;
+}
