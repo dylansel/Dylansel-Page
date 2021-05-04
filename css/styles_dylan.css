@@ -220,5 +220,7 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 10px;
 }
 
-
-::-webkit-scrollbar {display: none;}
+::-webkit-scrollbar {
+    display: none;
+    /*pongo invisible el scroll pero sigue estando*/
+}
