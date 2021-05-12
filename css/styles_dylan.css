@@ -187,8 +187,10 @@
         opacity: 0.7;
     }
     #padrepreloader {
-        color: white;
         background: black;
+    }
+    .lds-roller div:after {
+        background: #ffffff;
     }
 }
 
