@@ -3,6 +3,18 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
  */
+//scroll top
+$('html, body').animate({
+    scrollTop: 0
+}, 10);
+
+//preloader
+window.onload = () => {
+    $('#padrepreloader').fadeOut()
+    $('body').removeClass("preloaderScroll")
+}
+
+
 (function($) {
     "use strict"; // Start of use strict
 
