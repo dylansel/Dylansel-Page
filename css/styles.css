@@ -10229,11 +10229,11 @@ a.text-dark:focus {
         background: #1abc9c;
     }
     #mainNav.navbar-shrink {
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
     }
     #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 1.5em !important;
     }
 }
 

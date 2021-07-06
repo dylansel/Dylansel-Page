@@ -367,3 +367,22 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 /* end Preloader styles*/
+
+
+.actualizacion{
+    position:fixed;
+    top:90vh;
+    left:5px;
+    background:#535353c9;
+    border-radius:30px;
+    padding: 10px;
+    height:35px;
+    z-index: 100;
+
+}
+.actualizacion p {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top:-5px;
+    font-size: 15px;
+}
